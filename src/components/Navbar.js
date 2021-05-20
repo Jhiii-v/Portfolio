@@ -23,8 +23,8 @@ class Navbar extends Component {
         return (
             <nav className="glass">
             <img src={profilepic} className="profilepic"></img>
-            <h2>Vikalp <mark>Kaushik</mark></h2>
-            <p>Full Stack Developer</p>
+            <h2>Edouard <mark>Vieux</mark></h2>
+            <p>Front-End Developer</p>
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
             <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
@@ -35,6 +35,5 @@ class Navbar extends Component {
             )
         }
     }
-    
+
     export default Navbar
-    
