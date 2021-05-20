@@ -13,10 +13,12 @@ import Contact from './contents/Contact';
 
 const GlobalStyle = createGlobalStyle`
   body{
-  background: linear-gradient(${props => props.theme.mode === 'dark' ? '#868f96, #596164' : '(#ff758c,#764ba2'});
+    ${props => props.theme.mode === 'dark'
+      ? 'background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%)'
+      : 'background-image: linear-gradient(-45deg, #35C3F3 0%, #8b9fe8 20%, #e681d8 39%, #ffa9a4 76%, #FED2CE 100%)'};
   }
-
 `
+
 
 function App() {
   const [theme, setTheme] = useState({ mode: 'light'});
@@ -48,6 +50,5 @@ function App() {
     </ThemeProvider>
     );
   }
-  
+
   export default App;
-  
