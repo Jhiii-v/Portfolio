@@ -21,7 +21,9 @@ const GlobalStyle = createGlobalStyle`
 
 
 function App() {
+
   const [theme, setTheme] = useState({ mode: 'light'});
+
   return (
     <ThemeProvider theme={theme}>
       <>
