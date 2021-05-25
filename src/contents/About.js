@@ -5,9 +5,9 @@ class About extends Component {
     render() {
         return (
             <div className="condiv">
-            <h1 className="subtopic">About Me</h1>
+            <h1 className="subtopic">A propos</h1>
             <div className="hr_line line2 glass"><div className="inner2"></div></div>
-            <h2 className="abouthead">Vikalp <mark className="mark2">Kaushik</mark></h2>
+            <h2 className="abouthead">Edouard <mark className="mark2">Vieux</mark></h2>
             <p>Full Stack Developer</p>
             <br></br>
             <p className="p10">I started my journey in the world of computers from an young age,
@@ -44,6 +44,5 @@ class About extends Component {
             )
         }
     }
-    
+
 export default About
-    
