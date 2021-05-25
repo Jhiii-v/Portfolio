@@ -83,7 +83,7 @@ nav ul{
   bottom: 2%;
   left: 5%;
   width: 90%;
-  font-size:var(--fontsize-nav) ;
+  font-size:var(--fontsize-nav);
   text-align: center;
   list-style-type: none;
   text-decoration: none;
@@ -104,6 +104,11 @@ a
   text-decoration: none;
 }
 
+a:visited {
+  color: white;
+  font-weight: lighter;
+}
+
 .subtopic
 {
   margin:10px 10px 10px 15px;
@@ -117,9 +122,11 @@ p{
 h1{
   margin: 10px;
   font-size: 3.3rem;
+  font-weight: 300;
 }
 h2{
   font-size: 2rem;
+  font-weight: 300;
 }
 .abouthead{
   margin: 15px 10px;
