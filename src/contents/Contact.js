@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Social from '../components/Social';
-import Map from '../img/map.png';
+import Map from '../img/Rambouillet.png';
 
 class Contact extends Component {
     render() {
         return (
             <div className="condiv contact">
-            <h1 className="subtopic">Contact Me</h1>
+            <h1 className="subtopic">Contactez-Moi</h1>
             <div className="hr_line line2 glass"><div className="inner2 inner3"></div></div>
             <div class="con_out glass"><img src={Map} class="co1"></img></div>
             <a href="#"><div className="back3 glass">Download Resume</div></a>
@@ -17,6 +17,5 @@ class Contact extends Component {
             )
         }
     }
-    
+
     export default Contact
-    
