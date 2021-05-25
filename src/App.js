@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   body{
     ${props => props.theme.mode === 'dark'
       ? 'background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%);'
-      : 'background-image: linear-gradient(315deg, #80ced7 0%, #007ea7 74%)'};
+      : 'background-image: linear-gradient(315deg, #02a388 0%, #f9f9f9 74%)'};
   }
 `
 
