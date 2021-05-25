@@ -8,7 +8,7 @@ class About extends Component {
             <h1 className="subtopic">A propos</h1>
             <div className="hr_line line2 glass"><div className="inner2"></div></div>
             <h2 className="abouthead">Edouard <mark className="mark2">Vieux</mark></h2>
-            <p>Full Stack Developer</p>
+            <p>Front-End Developer</p>
             <br></br>
             <p className="p10">I started my journey in the world of computers from an young age,
             now I’m 21 years old, Pursuing my Computer Science and Engineering Degree in
