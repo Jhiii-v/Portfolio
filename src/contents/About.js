@@ -10,13 +10,8 @@ class About extends Component {
             <h2 className="abouthead">Edouard <mark className="mark2">Vieux</mark></h2>
             <p>Front-End Developer</p>
             <br></br>
-            <p className="p10">I started my journey in the world of computers from an young age,
-            now I’m 21 years old, Pursuing my Computer Science and Engineering Degree in
-            GNDEC Ludhiana.  Web development is my center of interest, i always
-            love the idea of cross-platform development, 1-n one code base deploy into almost
-            any platform, which web technology like Javascript enables me to do. I also like
-            creating Interactive UI components for better UX  and share those design and codes
-            to the world through Github and Instagram.
+            <p className="p10">
+                Interreser par la technologie 
             </p>
             <div className="Edu">
                 <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
@@ -26,11 +21,11 @@ class About extends Component {
                 <div className="vr_inner inn1"></div>
                 <div className="vr_inner inn2"></div>
             </div>
-            <h4>B.Tech in CSE</h4>
-            <p className="p1">GNDEC, Ludhiana</p>
-            <p className="p1"><i class="fa fa-calendar i2"></i>May 2018 - 2022</p>
-            <h4>High School</h4>
-            <p className="p1">St. Farid Public School, MGG</p>
+            <h4>My Digital School</h4>
+            <p className="p1">Montigny le BX, France</p>
+            <p className="p1"><i class="fa fa-calendar i2"></i>Sept 2020 - Juin 2021</p>
+            <h4>Ecole 42</h4>
+            <p className="p1">Paris 17, France</p>
             <p className="p1"><i class="fa fa-calendar i2"></i>May 2017</p>
 
             <h3 class="sk_head">Skills</h3>
