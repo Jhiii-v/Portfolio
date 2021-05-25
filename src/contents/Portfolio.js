@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import project1 from '../img/project1.png';
 import project2 from '../img/project2.png';
 import project3 from '../img/project3.png';
