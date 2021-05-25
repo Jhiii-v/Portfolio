@@ -19,9 +19,6 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-background-color: #b8c6db;
-background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-
 
 function App() {
 
