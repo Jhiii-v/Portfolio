@@ -28,6 +28,10 @@ body{
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
+
+.hide{
+}
+
 nav
 {
   width: 20%;
@@ -56,6 +60,16 @@ nav
   border-radius: 10px;
 }
 
+.hide{
+  display: none;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
 .home
 {
   display: flex;

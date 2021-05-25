@@ -11,7 +11,7 @@ class About extends Component {
             <p>Front-End Developer</p>
             <br></br>
             <p className="p10">
-                Interreser par la technologie 
+                Interreser par la technologie<br/><br/><br/><br/><br/><br/><br/><br/>
             </p>
             <div className="Edu">
                 <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
@@ -26,7 +26,7 @@ class About extends Component {
             <p className="p1"><i class="fa fa-calendar i2"></i>Sept 2020 - Juin 2021</p>
             <h4>Ecole 42</h4>
             <p className="p1">Paris 17, France</p>
-            <p className="p1"><i class="fa fa-calendar i2"></i>May 2017</p>
+            <p className="p1"><i class="fa fa-calendar i2"></i>2017</p>
 
             <h3 class="sk_head">Skills</h3>
             <div class="sk glass">HTML</div>
@@ -34,7 +34,7 @@ class About extends Component {
             <div class="sk s3 glass">JavaScript</div>
             <div class="sk s4 glass">React</div>
             <div class="sk s5 glass">Node</div>
-            <div class="sk s6 glass">Python</div>
+            <div class="sk s6 glass">Php</div>
             </div>
             )
         }
