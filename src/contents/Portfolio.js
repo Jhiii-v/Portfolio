@@ -9,13 +9,6 @@ import project6 from '../img/project6.jpg';
 import project7 from '../img/project7.jpg';
 import project8 from '../img/project8.jpg';
 
-const [isActive, setActive] = useState("false");
-
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
-
-
 class Portfolio extends Component {
 
     render() {
