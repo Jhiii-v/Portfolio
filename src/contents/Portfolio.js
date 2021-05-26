@@ -13,20 +13,19 @@ import project8 from '../img/project8.jpg';
 
 
 class Portfolio extends Component {
+    function MyComponent(props) {
+
+      //...
+
+      const mySpecialFunction = () => {
+        console.log('you clicked the button!')
+      }
+
+      const onClickHandler = (e) => {
+        mySpecialFunction();
+      }
+
     render() {
-
-      function MyComponent(props) {
-
-        //...
-
-        const mySpecialFunction = () => {
-          console.log('you clicked the button!')
-        }
-
-        const onClickHandler = (e) => {
-          mySpecialFunction();
-        }
-
 
         return (
             <div className="condiv">
