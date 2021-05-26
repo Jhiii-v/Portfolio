@@ -9,6 +9,19 @@ import project6 from '../img/project6.jpg';
 import project7 from '../img/project7.jpg';
 import project8 from '../img/project8.jpg';
 
+
+function MyComponent(props) {
+
+  //...
+
+  const mySpecialFunction = () => {
+    console.log('you clicked the button!')
+  }
+
+  const onClickHandler = (e) => {
+    mySpecialFunction();
+  }
+
 class Portfolio extends Component {
     render() {
 
@@ -30,7 +43,7 @@ class Portfolio extends Component {
                     <div className="port_out port4 glass"><a href="https://github.com/vikalp2502/Tribute-to-msd"><img src={project8} className="po1"></img></a></div>
                 </div>
                 <button cible="div1" className="dot btn"></button>
-                <button cible="div2" className="dot btn"></button>
+                <button onClick={onClickHandler} className="dot btn"> CLICK</button>
             </div>
 
 
