@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import $ from 'jquery';
 import project1 from '../img/project1.png';
 import project2 from '../img/project2.png';
@@ -38,7 +38,7 @@ class Portfolio extends Component {
                     <div className="port_out port4 glass"><a href="https://github.com/vikalp2502/Tribute-to-msd"><img src={project8} className="po1"></img></a></div>
                 </div>
                 <button cible="div1" className="dot btn"></button>
-                <button onClick={onClickHandler} className="dot btn"> CLICK</button>
+                <button className="dot btn"> CLICK</button>
             </div>
 
 
