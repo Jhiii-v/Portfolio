@@ -10,20 +10,22 @@ import project7 from '../img/project7.jpg';
 import project8 from '../img/project8.jpg';
 
 
-function MyComponent(props) {
 
-  //...
-
-  const mySpecialFunction = () => {
-    console.log('you clicked the button!')
-  }
-
-  const onClickHandler = (e) => {
-    mySpecialFunction();
-  }
 
 class Portfolio extends Component {
     render() {
+
+      function MyComponent(props) {
+
+        //...
+
+        const mySpecialFunction = () => {
+          console.log('you clicked the button!')
+        }
+
+        const onClickHandler = (e) => {
+          mySpecialFunction();
+        }
 
 
         return (
