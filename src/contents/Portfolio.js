@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import $ from 'jquery';
 import project1 from '../img/project1.png';
 import project2 from '../img/project2.png';
@@ -9,6 +9,7 @@ import project6 from '../img/project6.jpg';
 import project7 from '../img/project7.jpg';
 import project8 from '../img/project8.jpg';
 
+
 class Portfolio extends Component {
 
     render() {
@@ -18,7 +19,7 @@ class Portfolio extends Component {
             <div className="condiv">
                 <h1 className="subtopic">My Work</h1>
                 <div className="hr_line line2 glass"><div className="inner2 inner3"></div></div>
-                <div id="div1" className={`danger ${isActive ? "hide" : ""}`}>
+                <div id="div1" className="cards">
                     <div className="port_out port1 glass"><a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser"><img src={project1} className="po1"></img></a></div>
                     <div className="port_out port2 glass"><a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page"><img src={project2} className="po1"></img></a></div>
                     <div className="port_out port3 glass"><a href="https://github.com/vikalp2502/To-do-list-v2"><img src={project3} className="po1"></img></a></div>
