@@ -19,20 +19,7 @@ class Portfolio extends Component {
             <div className="condiv">
                 <h1 className="subtopic">My Work</h1>
                 <div className="hr_line line2 glass"><div className="inner2 inner3"></div></div>
-                <div id="div1" className="cards">
-                    <div className="port_out port1 glass"><a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser"><img src={project1} className="po1"></img></a></div>
-                    <div className="port_out port2 glass"><a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page"><img src={project2} className="po1"></img></a></div>
-                    <div className="port_out port3 glass"><a href="https://github.com/vikalp2502/To-do-list-v2"><img src={project3} className="po1"></img></a></div>
-                    <div className="port_out port4 glass"><a href="https://github.com/vikalp2502/Tribute-to-msd"><img src={project4} className="po1"></img></a></div>
-                </div>
-                <div id="div2" className="cards">
-                    <div className="port_out port1 glass"><a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser"><img src={project5} className="po1"></img></a></div>
-                    <div className="port_out port2 glass"><a href="https://github.com/vikalp2502/Shoes-Nike-Landing-page"><img src={project6} className="po1"></img></a></div>
-                    <div className="port_out port3 glass"><a href="https://github.com/vikalp2502/To-do-list-v2"><img src={project7} className="po1"></img></a></div>
-                    <div className="port_out port4 glass"><a href="https://github.com/vikalp2502/Tribute-to-msd"><img src={project8} className="po1"></img></a></div>
-                </div>
-                <button cible="div1" className="dot btn"></button>
-                <button className="dot btn"> CLICK</button>
+                <div className="port_out port1 glass"><a href="https://github.com/vikalp2502/AlgoSort-Sorting-Visualiser"><img src={project5} className="po1"></img></a></div>
             </div>
 
 
