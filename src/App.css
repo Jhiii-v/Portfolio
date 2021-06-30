@@ -306,15 +306,15 @@ mark{
 }
 .port_out{
   position: absolute;
-  width: 38%;
-  height: 30%;
+  width: 40%;
+  height: 25%;
 }
 .port_out:hover{
   background-color: #ffffff80;
 }
 .port1{
-  top: 18%;
-  left: 10%;
+  top: 14rem;
+  left: 16rem;
 }
 .port2{
   top: 18%;
@@ -555,4 +555,8 @@ mark{
   .btnsame{
     margin: 15px 10px;
   }
+}
+
+.l {
+  border-box:
 }
