@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class About extends Component {
     render() {
         return (
@@ -11,7 +10,7 @@ class About extends Component {
             <p>Front-End Developer</p>
             <br></br>
             <p className="p10">
-                Interreser par la technologie<br/><br/><br/><br/><br/><br/><br/><br/>
+                Interreser par la technologie depuis mon plus jeune age <br/><br/><br/><br/><br/><br/><br/><br/>
             </p>
             <div className="Edu">
                 <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
