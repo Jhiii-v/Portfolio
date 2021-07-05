@@ -28,12 +28,12 @@ class About extends Component {
             <p className="p1"><i class="fa fa-calendar i2"></i>2017</p>
 
             <h3 class="sk_head">Skills</h3>
-            <div class="sk glass">HTML</div>
-            <div class="sk s2 glass">CSS</div>
-            <div class="sk s3 glass">JavaScript</div>
-            <div class="sk s4 glass">React</div>
-            <div class="sk s5 glass">Node</div>
-            <div class="sk s6 glass">Php</div>
+            <div class="sk glass">Html/Css</div>
+            <div class="sk s2 glass">Js/Jquery</div>
+            <div class="sk s3 glass">Node.Js</div>
+            <div class="sk s4 glass">React Js</div>
+            <div class="sk s5 glass">Php</div>
+            <div class="sk s6 glass">MySql</div>
             </div>
             )
         }
