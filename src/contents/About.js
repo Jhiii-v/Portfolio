@@ -10,8 +10,7 @@ class About extends Component {
             <p>Front-End Developer</p>
             <br></br>
             <p className="p10">
-                Interreser par la technologie depuis mon plus jeune age <br/><br/><br/><br/><br/><br/><br/><br/>
-            </p>
+                Auto-didacte à mes débuts, j'ai eu besoin de continuer à faire évoluer mes connaissances et m'épanouir tant personnellement que professionnellement au sein d'une équipe où mes compétences seront utiles et où je pourrais continuer à évoluer. J'ai entrepris cette formation afin d'acquérir de nouvelles compétences pour intégrer un secteur qui requiert exigence et capacités d'adaptations permanentes.            </p>
             <div className="Edu">
                 <div class="back1 back2"><i class="fa fa-book i1 i3"></i></div>
             </div>
